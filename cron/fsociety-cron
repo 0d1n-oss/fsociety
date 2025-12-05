@@ -1,0 +1,1 @@
+* * * * * root echo "[fsociety] scanning corp network..." >> /tmp/logs/cron_output.log
