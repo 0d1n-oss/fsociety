@@ -1,6 +1,3 @@
-# fsociety
-A Capture The Flag style laboratory inspired by the Mr. Robot series, built inside a Docker container.
-
 # FSOCIETY – Mr. Robot Inspired CTF (Dockerized)
 
 **FSOCIETY** es un laboratorio estilo CTF inspirado en la serie **Mr. Robot**, construido dentro de un único contenedor Docker.  
@@ -27,16 +24,16 @@ Incluye:
 
 # Niveles del CTF
 
-### ** Nivel 1 — “HELLO FRIEND”**
+### Nivel 1 — “HELLO FRIEND”**
 Descubre la contraseña inicial para acceder por SSH analizando la web, su código fuente y el archivo `robots.txt`.
 
-### ** Nivel 2 — “ARE YOU A ONE OR A ZERO?”**
+### Nivel 2 — “ARE YOU A ONE OR A ZERO?”**
 Explora el sistema como el usuario *elliot*. Encuentra archivos ocultos y analiza logs generados por cronjobs.
 
-### ** Nivel 3 — “CONTROL IS AN ILLUSION”**
+### Nivel 3 — “CONTROL IS AN ILLUSION”**
 Descifra un archivo encriptado con cifrado simple para obtener el **FSOCIETY TOKEN**.
 
-### ** Nivel 4 — “WELCOME TO FSOCIETY”**
+### Nivel 4 — “WELCOME TO FSOCIETY”**
 Accede a un servicio secreto escuchando en un puerto oculto y obtén la **FSOCIETY BADGE**.
 
 ---
@@ -52,7 +49,7 @@ Accede a un servicio secreto escuchando en un puerto oculto y obtén la **FSOCIE
 
 ---
 
-# 🐳 Instalación
+# Instalación
 
 1. Clonar el repositorio:
 ```bash
