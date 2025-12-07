@@ -9,7 +9,7 @@ Explorando el codigo de la web se puede ver una pista que dirige hacia el archiv
 Teniendo este una ruta hacia el directorio '/secrets' que contiene un archivo llamado clue1.txt.
 ![](images/2.png)
 
-Descurbiendo que este esta cifrado en **ROT13** se puede ver el mensaje original se puede ver el contexto, viendo que el mensaje incluye una clave.
+Descurbiendo que este esta cifrado en **ROT13** se puede ver el mensaje original, viendo que el mensaje incluye una clave.
 ![](images/3.png)
 
 Teniendo una especie de clave se logro intuir que pertenecia a algun usuario de el sistema, el cual se podria suplantar usando el servicio ssh.
@@ -27,7 +27,7 @@ Irving
 gideon
 shayla
 ```
-Usando hydra para fuerza bruta se logro identificar al usuario elliot con la clave pass123.
+Usando hydra para fuerza bruta se logro identificar al usuario elliot con la clave secret123.
 Consiguiendo el acceso a la maquina
 ![](images/4.png)
 
@@ -35,7 +35,7 @@ Consiguiendo el acceso a la maquina
 
 Dentro de la maquina se empezo a listar directorios, encontrando el directorio '.hidden' el cual contiene mas archivos.
 Un archivo en python y otro en texto plano, los cuales dan mensajes.
-El archivo 'level2_note' deja ver una pista, haciendo alucion a que hay algo importante ne los logs
+El archivo 'level2_note' deja ver una pista, haciendo alucion a que hay algo importante en los logs
 ![](images/5.png)
 
 Dentro de '/tmp' se encontro una carpeta con logs donde se pueden ver unos datos irrelevantes.
